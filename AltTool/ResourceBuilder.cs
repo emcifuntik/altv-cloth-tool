@@ -85,7 +85,7 @@ namespace AltTool
             string manifestContent = "-- Generated with AltTool\n\n";
             manifestContent += "fx_version 'adamant'\n";
             manifestContent += "game 'gta5'\n\n";
-            manifestContent += "files {{\n{filesText}\n}}\n\n{metasText}";
+            manifestContent += $"files {{\n{filesText}\n}}\n\n{metasText}";
             return manifestContent;
         }
 
